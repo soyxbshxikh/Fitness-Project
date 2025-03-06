@@ -99,9 +99,11 @@ const HomeBanner1 = () => {
                 size="lg"
                 value={(item.value / item.goal) * 100}
               >
-                {simplifyFraction(item.value, item.goal)[0] +
-                  "/" +
-                  simplifyFraction(item.value, item.goal)[1]}
+                <span className="textincircle">
+                  {simplifyFraction(item.value, item.goal)[0] +
+                    "/" +
+                    simplifyFraction(item.value, item.goal)[1]}
+                </span>
               </CircularProgress>
               <button>
                 Show Report
