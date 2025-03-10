@@ -3,13 +3,13 @@ import "./AuthPopup.css";
 import Image from "next/image";
 import logo from "../../assets/logo.png";
 import Input from "@mui/joy/Input";
-import Select from '@mui/joy/Select';
-import Option from '@mui/joy/Option';
+import Select from "@mui/joy/Select";
+import Option from "@mui/joy/Option";
 
 const AuthPopup = () => {
   const [showSignup, setShowSignup] = React.useState<boolean>(false);
-  const handleLogin = () => { };
-  const handleSignup = () => { };
+  const handleLogin = () => {};
+  const handleSignup = () => {};
   return (
     <div className="popup">
       {showSignup ? (
@@ -51,10 +51,7 @@ const AuthPopup = () => {
                   Weight"
                 />
               </div>
-              <Select
-                color="warning"
-                placeholder="Gender"
-              >
+              <Select color="warning" placeholder="Gender">
                 <Option value="male">Male</Option>
                 <Option value="female">female</Option>
                 <Option value="other">Other</Option>
@@ -106,6 +103,11 @@ const AuthPopup = () => {
             <Image src={logo} alt="Logo" />
           </div>
           <div className="right">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <h1>Login to become a freak</h1>
             <form action="">
               <Input

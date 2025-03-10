@@ -58,7 +58,7 @@
 
 .authform p {
     margin: 10px 0px;
-    align-items: center;
+    text-align: center;
 }
 
 .authform .form_input_leftright {
