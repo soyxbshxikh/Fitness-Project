@@ -40,7 +40,7 @@ const AuthPopup = () => {
                   variant="outlined"
                   type="number"
                   placeholder="
-                  age"
+                  Age"
                 />
                 <Input
                   color="warning"
@@ -48,7 +48,7 @@ const AuthPopup = () => {
                   variant="outlined"
                   type="number"
                   placeholder="
-                  weight"
+                  Weight"
                 />
               </div>
               <Select
@@ -68,7 +68,7 @@ const AuthPopup = () => {
                   variant="outlined"
                   type="number"
                   placeholder="
-                  ft"
+                  Ft"
                 />
                 <Input
                   color="warning"
@@ -76,7 +76,7 @@ const AuthPopup = () => {
                   variant="outlined"
                   type="number"
                   placeholder="
-                  in"
+                  In"
                 />
               </div>
 
