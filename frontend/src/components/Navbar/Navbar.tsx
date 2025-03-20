@@ -28,7 +28,7 @@ const Navbar = () => {
           >Login</button>
       }
       {
-        showpopup && <AuthPopup />
+        showpopup && <AuthPopup setshowpopup={setshowpopup}/>
       }
     </nav>
   )
